@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Susan Libby Art</title>
 	<link rel="shortcut icon" type="image/png" href="http://laurajlibby.me/favicon_SL.png"/>
-	<link href="path/to/lightbox.css" rel="stylesheet">
+	<link href="lightbox.css" rel="stylesheet">
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Norican&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,7 +61,9 @@
 			    		<article>
 	  					
 					    	<figure class="align-center">
-					    		<img src="images/succulent.jpg" alt="succulent painting" title="succulent painting">
+					    		<a href="images/succulent.jpg" data-lightbox="succulent1" data-title="succulent watercolor">
+					    			<img src="images/succulent.jpg" alt="succulent painting" title="succulent painting" >
+					    		</a>
 					    		<figcaption>Classic Desert Succulent, Watercolor by Susan</figcaption>
 					    	</figure>	
 					    		
@@ -82,7 +84,9 @@
 				   		<article>
 
 					 	    	<figure class="align-center">
-									<img src="images/susan_at_show.jpg" alt="Susan at Art Show" title="Susan at Art Show">
+					 	    		<a href="images/susan_at_show.jpg" data-lightbox="susan1" data-title="susan at art show">
+										<img src="images/susan_at_show.jpg" alt="susan at art show" title="susan at art show">
+									</a>
 								<figcaption>Susan at a Recent Art Festival</figcaption>
 
 								</figure>
@@ -126,7 +130,7 @@
 			</script>
 
 			<!-- lightbox -->
-			<script src="path/to/lightbox.js"></script>
+			<script src="js/lightbox.js"></script>
 	</body>
 	
 </html>
