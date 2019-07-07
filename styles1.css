@@ -186,6 +186,11 @@ figcaption {
 	max-width: 250px;
 }
 
+#lightbox {
+	font-family: 'Lato', sans-serif;
+	color: #004a2f;
+	font-size: 1.10rem;
+}
 
 footer {
 	background-color: #4fa696;
