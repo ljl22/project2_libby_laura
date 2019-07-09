@@ -97,6 +97,13 @@ nav ul li a:hover {
 	color: #bc8c2d;
 	font-weight: bold;
 	text-decoration: none;
+
+}
+
+a:active, :focus {
+	outline: none;
+	text-decoration: none;
+	-moz-outline-style: none;
 }
 
 .desktop-menu {
@@ -164,6 +171,9 @@ p {
  	font-weight: bold;
  }
 
+ p.pcenter {
+ 	text-align: center;
+ }
 
 img {
 	width: 100%;

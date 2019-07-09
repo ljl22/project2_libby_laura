@@ -94,6 +94,12 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
+a:active, :focus {
+	outline: none;
+	text-decoration: none;
+	-moz-outline-style: none;
+}
+
 .desktop-menu {
 	display: none;
 }
@@ -152,6 +158,11 @@ p {
  p a {
  	color: #4fa696;
  	font-weight: bold;
+ 	text-decoration: none;
+ }
+
+ p.pcenter {
+ 	text-align: center;
  }
 
 
